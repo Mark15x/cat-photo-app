@@ -1,0 +1,72 @@
+/* Grundlayout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  line-height: 1.6;
+}
+
+/* Inhalt zentrieren */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* Karten-Look */
+section, footer {
+  background-color: #1e293b;
+  padding: 18px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+/* Bilder */
+img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Links */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  front-size: 2rem;
+  margin: 0 0 12px;
+}
+h2 {
+  margin-top: 0;
+  opacity: 0.95;
+}
+
+/* Karten: Schatten + Rahmen für mehr Tiefe */
+section, footer {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+/* Mehr Abstand für Listen */
+ul, o1 {
+  padding-left: 22px;
+}
+h1{
+  text-align: center;
+  margin-bottom: 20px
+}
+img {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35)
+}
+section {
+  transition: transform 0.2s ease;
+}
+section:hover {
+transform: translateY(-3px);
+}
